@@ -1,0 +1,13 @@
+"""
+Created on Fri Feb 16 12:29:38 2024
+
+@author: zS23017358
+"""
+print("Algoritmo de Euclides para MCD")
+numero1 = int(input("Escribe un numero A: "))
+numero2 = int(input("Escribe un numero B: "))
+
+while numero2 > 0:
+  numero1, numero2 = numero2, numero1 % numero2
+  
+print(numero1)
